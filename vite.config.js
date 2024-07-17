@@ -13,7 +13,7 @@ export default defineConfig({
   server: {
     proxy: {
       '/api': {
-        target: 'http://localhost:8082',
+        target: 'https://backend-tfab.livetest.my.id',
         changeOrigin: true,
         rewrite: (path) => path.replace(/^\/api/, '')
       }

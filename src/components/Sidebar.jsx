@@ -27,6 +27,16 @@ const Sidebar = () => {
         >
           Permohonan
         </Link>
+        <Link
+          to="/dashboard/master-unit"
+          className={`block py-2.5 px-4 text-white rounded ${
+            location.pathname === "/dashboard/master-unit"
+              ? "bg-[#f3c560] text-black font-bold"
+              : "bg-[#1e293b]"
+          } hover:bg-gray-700 hover:text-white`}
+        >
+          Master Unit
+        </Link>
       </nav>
       <div className="mt-10 px-2">
         <button

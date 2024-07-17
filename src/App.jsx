@@ -6,6 +6,7 @@ import FormPermohonan from "./pages/FormPermohonan.jsx";
 import LoginPage from "./pages/LoginPage.jsx";
 import Dashboard from "./pages/Dashboard.jsx";
 import Permohonan from "./components/Permohonan.jsx";
+import MasterUnit from "./components/MasterUnit.jsx";
 
 const router = createBrowserRouter([
   {
@@ -31,6 +32,10 @@ const router = createBrowserRouter([
           {
             path: "permohonan",
             element: <Permohonan />,
+          },
+          {
+            path: "master-unit",
+            element: <MasterUnit />,
           },
         ],
       },
